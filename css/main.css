@@ -1,35 +1,70 @@
 html {
-   font-family: 'Rubik', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
    text-decoration: none;
-   background-color: #efefef;
+   background-color: #fff8ee;
+}
+
+p {
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: #bdbdbd;
 }
 
 h3 {
    color: #777777;
 }
 
-body {
-   background-color: #CFF6FF;
-   margin: 0;
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 23px;
+  /*margin: 4 35% 4 35%; /*top, left, bottom, right*/
 }
 
-#div6{
+body {
+   margin: 0;
+   padding-bottom: 1%;
+   background-image: url(http://i.imgur.com/96Pj5pD.jpg);
+   background-repeat: no-repeat;
+   background-position: 20%;
+   background-attachment: fixed;
+   background-color: honeydew; /*#CFF6FF*/
+}
+
+#homePosts{
+  display: block;
+
+}
+
+.basePost {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 2% 2% 1% 2%;
+  background-color: #d6d6d6;
+}
+
+#div6 {
    padding-top: 3;
-   padding-right: 3;
+   padding-right: 15;
    float: right;
 }
 
 ul#ulhide {
    list-style-type: none;
    padding: 5;
-   background-color: #E6FFA8;
+   background-color: #50647d;
    overflow: hidden;
+   position: fixed;
+   margin-top: 0;
+   width: 100%;
 }
 
 ul#ulhide li a {
+   font-family: 'Rubik', sans-serif;
    color: black;
    display: inline-block;
    margin: 2px;
@@ -38,7 +73,7 @@ ul#ulhide li a {
 }
 
 ul#ulhide li a:hover {
-   background-color: #e9e9e9;
+   background-color: #d4cec2;
 }
 ul#ulhide li a:hover, a:visited, a:active {
    color: inherit;
