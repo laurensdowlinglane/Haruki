@@ -25,13 +25,19 @@ h2 {
   /*margin: 4 35% 4 35%; /*top, left, bottom, right*/
 }
 
+img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
 body {
    margin: 0;
    padding-bottom: 1%;
-   background-image: url(http://i.imgur.com/96Pj5pD.jpg);
+   /*background-image: url(http://i.imgur.com/96Pj5pD.jpg);
    background-repeat: no-repeat;
    background-position: 20%;
-   background-attachment: fixed;
+   background-attachment: fixed;*/
    background-color: honeydew; /*#CFF6FF*/
 }
 
